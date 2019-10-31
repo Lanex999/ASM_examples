@@ -1,6 +1,6 @@
 ; LnxSpectrum ASM editor (www.ilnx.cz) 30.10.2019
 
-	org	40000
+	org	32768
 	
 	ld	de,music
 	call	mus.LoadPlay
